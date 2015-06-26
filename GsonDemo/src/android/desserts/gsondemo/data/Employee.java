@@ -3,13 +3,6 @@ package android.desserts.gsondemo.data;
 
 import com.google.gson.annotations.SerializedName;
 
-/**
- * 
- * @author swati.rastogi
- * 
- * Employee class to show name age and gender of employee.
- *
- */
 public class Employee {
 
 	@SerializedName("name")

@@ -8,20 +8,10 @@ import android.desserts.gsondemo.data.Employees;
 import android.os.Bundle;
 import android.util.Log;
 
-/**
- * 
- * @author swati.rastogi
- * 
- * Activity to trigger webservice call in oncreate
- *
- */
 public class ShowData extends Activity implements IPostData{
 
 	private static final String TAG = ShowData.class.getSimpleName();
 	
-	/**
-	 * Url for dummy json data
-	 */
 	private static final String URL = "http://beta.json-generator.com/api/json/get/BK4z5cG";
 	
 	@Override
@@ -32,9 +22,6 @@ public class ShowData extends Activity implements IPostData{
 		new EmployeeAsync(URL, this).execute();
 	}
 
-	/**
-	 * Api exposed by the async task to get the employees object
-	 */
 	@Override
 	public void postData(Employees employees) {
 		
