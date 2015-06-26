@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/place_icon_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_toRightOf="@id/place_icon_iv" >
+
+        <ImageView
+            android:id="@+id/open_now_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="2dp"
+            android:src="@drawable/yes" />
+
+        <TextView
+            android:id="@+id/open_now_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_toLeftOf="@id/open_now_iv"
+            android:gravity="right"
+            android:text="@string/open_now" />
+
+        <TextView
+            android:id="@+id/place_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="2dp"
+            android:layout_toLeftOf="@id/open_now_tv"
+            android:text="@string/place_name" />
+
+        <TextView
+            android:id="@+id/place_address_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/place_name_tv"
+            android:layout_margin="2dp"
+            android:layout_toLeftOf="@id/open_now_tv"
+            android:text="@string/place_address" />
+
+        <TextView
+            android:id="@+id/place_type_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/place_address_tv"
+            android:layout_margin="2dp"
+            android:layout_toLeftOf="@id/open_now_tv"
+            android:text="@string/type" />
+    </RelativeLayout>
+
+</RelativeLayout>
