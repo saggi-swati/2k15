@@ -2,11 +2,19 @@ package android.desserts.gson.webservice;
 
 import java.io.Reader;
 
-import com.google.gson.GsonBuilder;
-
 import android.desserts.gsondemo.data.Employees;
 import android.os.AsyncTask;
+import android.util.EventLogTags.Description;
 
+import com.google.gson.GsonBuilder;
+
+/**
+ * 
+ * @author swati.rastogi
+ * 
+ * {@link Description} async task to perform the call to fetch the data from url in a background thread.
+ *
+ */
 public class EmployeeAsync extends AsyncTask<Void, Void, Employees> {
 	
 	String mURL;

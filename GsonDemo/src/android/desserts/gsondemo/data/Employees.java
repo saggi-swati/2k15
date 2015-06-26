@@ -6,6 +6,13 @@ import java.util.List;
 
 import com.google.gson.annotations.SerializedName;
 
+/**
+ * 
+ * @author swati.rastogi
+ * 
+ * Employees class contains information of company, location and list of all the employees.
+ *
+ */
 public class Employees {
 
     
