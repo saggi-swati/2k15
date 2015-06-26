@@ -1,4 +1,4 @@
-package org.android.dessert;
+package org.android.dessert.ui;
 
 /**
  * 

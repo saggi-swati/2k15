@@ -3,8 +3,8 @@ package org.android.dessert.webservices;
 import java.io.InputStream;
 import java.net.URL;
 
-import org.android.dessert.ImageActivity;
 import org.android.dessert.R;
+import org.android.dessert.ui.ImageActivity;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

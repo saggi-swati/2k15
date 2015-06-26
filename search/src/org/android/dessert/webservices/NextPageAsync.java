@@ -1,9 +1,9 @@
 package org.android.dessert.webservices;
 
 import org.android.dessert.R;
-import org.android.dessert.SearchActivity;
-import org.android.dessert.SearchApplication;
 import org.android.dessert.data.NearBy;
+import org.android.dessert.ui.SearchActivity;
+import org.android.dessert.ui.SearchApplication;
 import org.json.JSONObject;
 
 import android.os.AsyncTask;

@@ -1,7 +1,8 @@
-package org.android.dessert;
+package org.android.dessert.ui;
 
 import java.util.ArrayList;
 
+import org.android.dessert.R;
 import org.android.dessert.adapter.ItemViewHolder;
 import org.android.dessert.adapter.LocationDataAdapter;
 import org.android.dessert.data.NearBy;

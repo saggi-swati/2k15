@@ -1,5 +1,6 @@
-package org.android.dessert;
+package org.android.dessert.ui;
 
+import org.android.dessert.R;
 import org.android.dessert.util.NetworkUtil;
 import org.android.dessert.webservices.LoadImageAsync;
 

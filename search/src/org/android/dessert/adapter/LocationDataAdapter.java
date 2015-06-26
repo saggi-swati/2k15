@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 import org.android.dessert.R;
-import org.android.dessert.SearchActivity;
 import org.android.dessert.data.Place;
+import org.android.dessert.ui.SearchActivity;
 
 import android.app.Activity;
 import android.content.Context;
